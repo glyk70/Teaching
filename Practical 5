@@ -1,0 +1,33 @@
+/* Практична 
+* робота
+* 5
+*/
+
+fn calculate_variables() {
+    // Призначення змінних
+    let m = 1;
+    let u = 2;
+    let x = 3;
+    let a = 4;
+    let s = 5;
+    let l = 6;
+    let o = 7;
+    let n = 8;
+
+    // Формуємо результат у вигляді рядків
+    let line1 = format!("{}{}{}{}", m, u, x, a);   // muxa
+    let line2 = format!("{}        {}", x, a);      // x        a
+    let line3 = "  ------";                        // ------
+    let line4 = format!("    {}{}{}{}", s, l, o, n); // slon
+
+    // Виводимо результат
+    println!("{}", line1);
+    println!("{}", line2);
+    println!("{}", line3);
+    println!("{}", line4);
+}
+
+fn main() {
+    // Викликаємо функцію
+    calculate_variables();
+}
